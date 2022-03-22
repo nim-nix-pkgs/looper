@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-looper-master.flake = false;
+  inputs.src-looper-master.ref   = "refs/heads/master";
   inputs.src-looper-master.owner = "planetis-m";
-  inputs.src-looper-master.ref   = "master";
   inputs.src-looper-master.repo  = "looper";
   inputs.src-looper-master.type  = "github";
   
