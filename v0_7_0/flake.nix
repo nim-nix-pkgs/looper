@@ -11,6 +11,7 @@
   inputs.src-looper-v0_7_0.ref   = "refs/tags/v0.7.0";
   inputs.src-looper-v0_7_0.owner = "planetis-m";
   inputs.src-looper-v0_7_0.repo  = "looper";
+  inputs.src-looper-v0_7_0.dir   = "";
   inputs.src-looper-v0_7_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

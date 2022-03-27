@@ -11,6 +11,7 @@
   inputs.src-looper-master.ref   = "refs/heads/master";
   inputs.src-looper-master.owner = "planetis-m";
   inputs.src-looper-master.repo  = "looper";
+  inputs.src-looper-master.dir   = "";
   inputs.src-looper-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
